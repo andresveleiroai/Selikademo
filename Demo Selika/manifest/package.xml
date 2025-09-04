@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Health Cloud Core Objects -->
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>HealthCloudGA__CarePlan__c</members>
+        <members>HealthCloudGA__CarePlanProblem__c</members>
+        <members>HealthCloudGA__CarePlanGoal__c</members>
+        <members>HealthCloudGA__CarePlanTask__c</members>
+        <members>HealthCloudGA__EhrObservation__c</members>
+        <members>HealthCloudGA__EhrCondition__c</members>
+        <members>HealthCloudGA__EhrMedicationStatement__c</members>
+        <members>HealthCloudGA__EhrAllergyIntolerance__c</members>
+        <members>HealthCloudGA__EhrImmunization__c</members>
+        <members>HealthCloudGA__EhrProcedure__c</members>
+        <members>HealthCloudGA__EhrEncounter__c</members>
+        <members>HealthCloudGA__EhrDevice__c</members>
+        <members>Case</members>
+        <members>Task</members>
+        <members>Event</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Profiles - Core Configuration -->
+    <types>
+        <members>Admin</members>
+        <members>Standard User</members>
+        <name>Profile</name>
+    </types>
+
+    <!-- Health Cloud Record Types -->
+    <types>
+        <members>Account.IndustriesHealthcarePayer</members>
+        <members>Account.IndustriesHealthcareProvider</members>
+        <members>Account.PersonAccount</members>
+        <members>Contact.IndustriesHealthcarePractitioner</members>
+        <members>Case.HealthCloudGA__PatientCase</members>
+        <members>Lead.HealthCloudGA__PatientLead</members>
+        <name>RecordType</name>
+    </types>
+
+    <!-- Health Cloud Page Layouts -->
+    <types>
+        <members>Account-HealthCloudGA__HealthCloudPersonAccountLayout</members>
+        <members>Account-HealthCloudGA__HealthCloudProviderLayout</members>
+        <members>Account-HealthCloudGA__HealthCloudPayerLayout</members>
+        <members>Account-Account Layout</members>
+        <members>Contact-HealthCloudGA__HealthCloudPractitionerLayout</members>
+        <members>Contact-Contact Layout</members>
+        <members>HealthCloudGA__CarePlan__c-HealthCloudGA__HealthCloudCarePlanLayout</members>
+        <members>HealthCloudGA__CarePlanProblem__c-HealthCloudGA__HealthCloudCarePlanProblemLayout</members>
+        <members>HealthCloudGA__CarePlanGoal__c-HealthCloudGA__HealthCloudCarePlanGoalLayout</members>
+        <members>HealthCloudGA__CarePlanTask__c-HealthCloudGA__HealthCloudCarePlanTaskLayout</members>
+        <members>HealthCloudGA__EhrObservation__c-HealthCloudGA__HealthCloudEhrObservationLayout</members>
+        <members>HealthCloudGA__EhrCondition__c-HealthCloudGA__HealthCloudEhrConditionLayout</members>
+        <members>HealthCloudGA__EhrMedicationStatement__c-HealthCloudGA__HealthCloudEhrMedicationLayout</members>
+        <members>Case-HealthCloudGA__HealthCloudPatientCaseLayout</members>
+        <members>Case-Case Layout</members>
+        <members>Lead-HealthCloudGA__HealthCloudPatientLeadLayout</members>
+        <members>Task-Task Layout</members>
+        <members>Event-Event Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <!-- Health Cloud Compact Layouts -->
+    <types>
+        <members>Account.HealthCloudGA__HealthCloudPersonAccountCompactLayout</members>
+        <members>Contact.HealthCloudGA__HealthCloudPractitionerCompactLayout</members>
+        <members>HealthCloudGA__CarePlan__c.HealthCloudGA__HealthCloudCarePlanCompactLayout</members>
+        <members>Case.HealthCloudGA__HealthCloudCaseCompactLayout</members>
+        <name>CompactLayout</name>
+    </types>
+
+    <!-- Health Cloud Lightning Pages -->
+    <types>
+        <members>HealthCloudGA__HealthCloudPersonAccountRecordPage</members>
+        <members>HealthCloudGA__HealthCloudProviderRecordPage</members>
+        <members>HealthCloudGA__HealthCloudCarePlanRecordPage</members>
+        <members>HealthCloudGA__PatientCardHome</members>
+        <members>HealthCloudGA__ProviderSearchPage</members>
+        <members>HealthCloudGA__CareTimelineRecordPage</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <!-- Health Cloud Apps -->
+    <types>
+        <members>HealthCloudGA__Health_Cloud</members>
+        <members>standard__LightningSales</members>
+        <members>standard__Service</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <!-- Health Cloud Tabs -->
+    <types>
+        <members>HealthCloudGA__CarePlan__c</members>
+        <members>HealthCloudGA__EhrObservation__c</members>
+        <members>HealthCloudGA__EhrCondition__c</members>
+        <members>HealthCloudGA__EhrMedicationStatement__c</members>
+        <members>HealthCloudGA__EhrAllergyIntolerance__c</members>
+        <members>HealthCloudGA__EhrImmunization__c</members>
+        <members>HealthCloudGA__EhrProcedure__c</members>
+        <members>standard-Account</members>
+        <members>standard-Contact</members>
+        <members>standard-Case</members>
+        <members>standard-Task</members>
+        <members>standard-Lead</members>
+        <name>CustomTab</name>
+    </types>
+
+    <!-- Health Cloud Flows -->
+    <types>
+        <members>HealthCloudGA__CreateCarePlan</members>
+        <members>HealthCloudGA__PatientOnboarding</members>
+        <members>HealthCloudGA__CareGapProcess</members>
+        <members>HealthCloudGA__PatientIntakeProcess</members>
+        <name>Flow</name>
+    </types>
+
+    <types>
+        <members>HealthCloudGA__CreateCarePlan</members>
+        <members>HealthCloudGA__PatientOnboarding</members>
+        <members>HealthCloudGA__CareGapProcess</members>
+        <members>HealthCloudGA__PatientIntakeProcess</members>
+        <name>FlowDefinition</name>
+    </types>
+
+    <!-- Health Cloud List Views -->
+    <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.HealthCloudGA__AllPatients</members>
+        <members>Account.HealthCloudGA__AllProviders</members>
+        <members>Account.HealthCloudGA__MyPatients</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.HealthCloudGA__AllPractitioners</members>
+        <members>HealthCloudGA__CarePlan__c.HealthCloudGA__ActiveCarePlans</members>
+        <members>HealthCloudGA__CarePlan__c.HealthCloudGA__MyCarePlans</members>
+        <members>HealthCloudGA__EhrObservation__c.HealthCloudGA__RecentObservations</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.HealthCloudGA__AllPatientCases</members>
+        <members>Case.HealthCloudGA__MyPatientCases</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.HealthCloudGA__PatientLeads</members>
+        <name>ListView</name>
+    </types>
+
+    <!-- Assignment Rules -->
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+
+    <!-- Auto Response Rules -->
+    <types>
+        <members>Case</members>
+        <name>AutoResponseRules</name>
+    </types>
+
+    <!-- Email Templates -->
+    <types>
+        <members>unfiled$public</members>
+        <name>EmailTemplate</name>
+    </types>
+
+    <!-- Queues -->
+    <types>
+        <members>HealthCloudGA__PatientCases</members>
+        <members>HealthCloudGA__CareCoordination</members>
+        <members>HealthCloudGA__PatientLeads</members>
+        <name>Queue</name>
+    </types>
+
+    <!-- Groups -->
+    <types>
+        <members>HealthCloudGA__CareTeam</members>
+        <members>HealthCloudGA__HealthcareProviders</members>
+        <name>Group</name>
+    </types>
+
+    <!-- Settings (en lugar de CustomSettings) -->
+    <types>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+
+    <version>59.0</version>
+</Package>
