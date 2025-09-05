@@ -5,6 +5,6 @@
     <label>Partner Approval Queue</label>
     <queue>SDO_PRM_PartnerApproval</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

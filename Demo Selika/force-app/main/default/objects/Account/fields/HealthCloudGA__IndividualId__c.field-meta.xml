@@ -3,7 +3,7 @@
     <fullName>HealthCloudGA__IndividualId__c</fullName>
     <caseSensitive>true</caseSensitive>
     <deprecated>false</deprecated>
-    <description>Unique ID that relates this individual&apos;s account record to its contact record.</description>
+    <description>Unique ID that relates this individual's account record to its contact record.</description>
     <externalId>false</externalId>
     <label>Individual ID</label>
     <length>37</length>

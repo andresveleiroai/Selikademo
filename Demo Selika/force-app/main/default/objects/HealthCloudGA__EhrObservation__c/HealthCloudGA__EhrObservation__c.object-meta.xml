@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__EhrObservation__c</fullName>
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -163,7 +164,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>EHR Observations</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

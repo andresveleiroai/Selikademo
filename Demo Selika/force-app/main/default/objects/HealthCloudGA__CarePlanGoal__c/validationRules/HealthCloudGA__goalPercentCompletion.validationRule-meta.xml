@@ -5,5 +5,5 @@
     <description>Goal Percent Completion should be less than or equal to 100</description>
     <errorConditionFormula>HealthCloudGA__Progress__c &gt;1.0</errorConditionFormula>
     <errorDisplayField>HealthCloudGA__Progress__c</errorDisplayField>
-    <errorMessage>The value for Progress can&apos;t be more than 100%.</errorMessage>
+    <errorMessage>The value for Progress can't be more than 100%.</errorMessage>
 </ValidationRule>

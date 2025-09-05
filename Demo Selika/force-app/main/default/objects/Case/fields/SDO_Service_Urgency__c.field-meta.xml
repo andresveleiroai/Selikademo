@@ -4,10 +4,10 @@
     <description>What: Used in My Resolution report.</description>
     <externalId>false</externalId>
     <formula>IMAGE(CASE(Priority,
-&quot;Critical&quot;, &quot;https://hls-ido.s3.amazonaws.com/critical.png&quot;,
-&quot;High&quot;, &quot;https://hls-ido.s3.amazonaws.com/high.png&quot;,
-&quot;Medium&quot;, &quot;https://hls-ido.s3.amazonaws.com/medium.png&quot;,
-&quot;Low&quot;, &quot;https://hls-ido.s3.amazonaws.com/low.png&quot;,&quot;https://hls-ido.s3.amazonaws.com/critical.png&quot;),&quot;&quot;,22,22)</formula>
+"Critical", "https://hls-ido.s3.amazonaws.com/critical.png",
+"High", "https://hls-ido.s3.amazonaws.com/high.png",
+"Medium", "https://hls-ido.s3.amazonaws.com/medium.png",
+"Low", "https://hls-ido.s3.amazonaws.com/low.png","https://hls-ido.s3.amazonaws.com/critical.png"),"",22,22)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Urgency</label>
     <required>false</required>

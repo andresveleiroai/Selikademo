@@ -5,6 +5,6 @@
     <label>Billing</label>
     <queue>SDO_Service_Billing</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

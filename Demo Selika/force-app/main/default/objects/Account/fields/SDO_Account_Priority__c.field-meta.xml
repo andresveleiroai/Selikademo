@@ -3,7 +3,7 @@
     <fullName>SDO_Account_Priority__c</fullName>
     <description>What: used in Reporting</description>
     <externalId>false</externalId>
-    <formula>IF( ( AnnualRevenue &gt;20000000),&quot;High Priority&quot;, IF(AND( AnnualRevenue &lt; 20000000, AnnualRevenue &gt; 10000000),&quot;Medium Priority&quot;, &quot;Low Priority&quot;))</formula>
+    <formula>IF( ( AnnualRevenue &gt;20000000),"High Priority", IF(AND( AnnualRevenue &lt; 20000000, AnnualRevenue &gt; 10000000),"Medium Priority", "Low Priority"))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Account Priority</label>
     <required>false</required>

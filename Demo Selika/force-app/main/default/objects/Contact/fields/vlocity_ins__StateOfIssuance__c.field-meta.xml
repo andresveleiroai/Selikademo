@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>vlocity_ins__StateOfIssuance__c</fullName>
     <deprecated>false</deprecated>
-    <description>Used with Driver&apos;s License Number. Identifies the state or country that issued the specified driver&apos;s license number.</description>
+    <description>Used with Driver's License Number. Identifies the state or country that issued the specified driver's license number.</description>
     <externalId>false</externalId>
     <label>State of Issuance</label>
     <required>false</required>

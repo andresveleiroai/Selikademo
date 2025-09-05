@@ -5,6 +5,6 @@
     <label>UM Clinical Review</label>
     <queue>HLS_UM_Clinical_Review</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

@@ -16,7 +16,7 @@
     </filters>
     <label>Closed Cases</label>
     <sharedTo>
-        <allCustomerPortalUsers></allCustomerPortalUsers>
-        <allPartnerUsers></allPartnerUsers>
+        <allCustomerPortalUsers />
+        <allPartnerUsers />
     </sharedTo>
 </ListView>

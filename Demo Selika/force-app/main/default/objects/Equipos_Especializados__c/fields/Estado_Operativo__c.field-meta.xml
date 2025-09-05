@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado_Operativo__c</fullName>
+    <label>Estado Operativo</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Operativo</fullName>
+                <default>true</default>
+                <label>Operativo</label>
+            </value>
+            <value>
+                <fullName>Mantenimiento</fullName>
+                <default>false</default>
+                <label>Mantenimiento</label>
+            </value>
+            <value>
+                <fullName>Fuera de Servicio</fullName>
+                <default>false</default>
+                <label>Fuera de Servicio</label>
+            </value>
+            <value>
+                <fullName>Calibración</fullName>
+                <default>false</default>
+                <label>Calibración</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

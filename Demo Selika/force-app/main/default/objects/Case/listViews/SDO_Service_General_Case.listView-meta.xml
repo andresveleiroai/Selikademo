@@ -5,6 +5,6 @@
     <label>General</label>
     <queue>SDO_Service_General</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

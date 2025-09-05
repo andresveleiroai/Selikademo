@@ -16,6 +16,6 @@
     </filters>
     <label>UM MD Review</label>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

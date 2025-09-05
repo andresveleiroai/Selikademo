@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Type and date of last encounter</description>
     <externalId>false</externalId>
-    <formula>HealthCloudGA__TypeLabel__c + IF(ISBLANK(HealthCloudGA__PeriodEnd__c),&apos;&apos;, &apos;, &apos; +  TEXT(HealthCloudGA__PeriodEnd__c))</formula>
+    <formula>HealthCloudGA__TypeLabel__c + IF(ISBLANK(HealthCloudGA__PeriodEnd__c),'', ', ' +  TEXT(HealthCloudGA__PeriodEnd__c))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>LastEncounter</label>
     <required>false</required>

@@ -17,7 +17,7 @@
     </filters>
     <label>My Rejected Registrations</label>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
-        <allPartnerUsers></allPartnerUsers>
+        <allInternalUsers />
+        <allPartnerUsers />
     </sharedTo>
 </ListView>

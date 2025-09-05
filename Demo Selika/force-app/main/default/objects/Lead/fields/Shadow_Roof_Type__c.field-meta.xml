@@ -3,7 +3,7 @@
     <fullName>Shadow_Roof_Type__c</fullName>
     <description>Used by the Einstein Vision Demo updated Jan 2020.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Determines which image shows when you click the &quot;Analyze Roof Type&quot; button.  These are called &quot;RooftopFlat&quot; and &quot;RooftopPitched&quot; inside the static resource &quot;EinsteinVisionRooftopImages&quot;.</inlineHelpText>
+    <inlineHelpText>Determines which image shows when you click the "Analyze Roof Type" button.  These are called "RooftopFlat" and "RooftopPitched" inside the static resource "EinsteinVisionRooftopImages".</inlineHelpText>
     <label>Shadow Roof Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

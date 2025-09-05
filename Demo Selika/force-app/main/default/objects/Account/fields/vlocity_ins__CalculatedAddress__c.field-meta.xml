@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Formula: A concatenation of billing street, city, state/province and postal code.</description>
     <externalId>false</externalId>
-    <formula>BillingStreet &amp; BR() &amp; BillingCity &amp; &quot; &quot; &amp; BillingState &amp; &quot; &quot; &amp; BillingPostalCode</formula>
+    <formula>BillingStreet &amp; BR() &amp; BillingCity &amp; " " &amp; BillingState &amp; " " &amp; BillingPostalCode</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Calculated Address</label>
     <required>false</required>

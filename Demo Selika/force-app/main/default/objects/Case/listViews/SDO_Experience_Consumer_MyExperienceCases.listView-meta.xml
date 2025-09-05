@@ -10,7 +10,7 @@
     <filterScope>Mine</filterScope>
     <label>My Experience Cases</label>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
-        <allPartnerUsers></allPartnerUsers>
+        <allInternalUsers />
+        <allPartnerUsers />
     </sharedTo>
 </ListView>

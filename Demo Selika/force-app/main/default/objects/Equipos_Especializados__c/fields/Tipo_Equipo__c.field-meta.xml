@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Equipo__c</fullName>
+    <label>Tipo de Equipo</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Torre Olympus X1</fullName>
+                <default>false</default>
+                <label>Torre Olympus X1</label>
+            </value>
+            <value>
+                <fullName>IA Colonoscopia</fullName>
+                <default>false</default>
+                <label>IA Colonoscopia</label>
+            </value>
+            <value>
+                <fullName>Manometría 3D</fullName>
+                <default>false</default>
+                <label>Manometría 3D</label>
+            </value>
+            <value>
+                <fullName>pH-metría 24h</fullName>
+                <default>false</default>
+                <label>pH-metría 24h</label>
+            </value>
+            <value>
+                <fullName>Sistema Energía Bipolar</fullName>
+                <default>false</default>
+                <label>Sistema Energía Bipolar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

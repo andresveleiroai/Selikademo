@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SDO_Service_SLA_Compliant__c</fullName>
     <defaultValue>true</defaultValue>
-    <description>What: This field is used by the &quot;SLA Compliance&quot; dashboard on the Service Executive dashboard.  It is checked by default, and unchecked when a case misses a milestone.</description>
+    <description>What: This field is used by the "SLA Compliance" dashboard on the Service Executive dashboard.  It is checked by default, and unchecked when a case misses a milestone.</description>
     <externalId>false</externalId>
     <label>SLA Compliant</label>
     <trackFeedHistory>false</trackFeedHistory>

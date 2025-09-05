@@ -5,6 +5,6 @@
     <label>UM Intake</label>
     <queue>HLS_UM_Intake</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

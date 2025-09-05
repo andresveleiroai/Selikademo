@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case</fullName>
     <assignmentRule>
         <fullName>Einstein Case Routing Only</fullName>
         <active>true</active>

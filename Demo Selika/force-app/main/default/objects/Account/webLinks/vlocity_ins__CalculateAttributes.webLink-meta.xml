@@ -8,5 +8,5 @@
     <openType>onClickJavaScript</openType>
     <protected>false</protected>
     <requireRowSelection>false</requireRowSelection>
-    <url>alert(&apos;Feature no longer supported&apos;);</url>
+    <url>alert('Feature no longer supported');</url>
 </WebLink>

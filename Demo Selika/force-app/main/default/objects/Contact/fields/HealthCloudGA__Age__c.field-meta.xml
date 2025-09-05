@@ -9,13 +9,13 @@ IF( NOT( ISBLANK( Birthdate ) ) , TEXT(IF( NOT( ISBLANK( Birthdate ) ) ,
 IF( DATE( 2000 , MONTH( Birthdate ) , DAY( Birthdate ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ), 
 YEAR (Today()) - YEAR ( Birthdate ), 
 YEAR (Today()) - YEAR ( Birthdate ) -1 ), 
-null))+ &apos; Years &apos;, &apos;&apos;), 
+null))+ ' Years ', ''), 
 
 IF( NOT( ISBLANK( Birthdate ) ) , TEXT(IF( NOT( ISBLANK( Birthdate ) ) , 
 IF( DATE( 2000 , MONTH( Birthdate ) , DAY( Birthdate ) ) &lt;= DATE( 2000 , MONTH( HealthCloudGA__DeceasedDate__c ) , DAY( HealthCloudGA__DeceasedDate__c ) ), 
 YEAR (HealthCloudGA__DeceasedDate__c) - YEAR ( Birthdate ), 
 YEAR (HealthCloudGA__DeceasedDate__c) - YEAR ( Birthdate ) -1 ), 
-null))+ &apos; Years &apos;, &apos;&apos;) 
+null))+ ' Years ', '') 
 
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

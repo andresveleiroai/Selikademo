@@ -5,6 +5,6 @@
     <label>Sales -  Lead</label>
     <queue>SDO_Sales_General_Lead</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

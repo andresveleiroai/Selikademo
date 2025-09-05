@@ -3,7 +3,7 @@
     <fullName>Ptnr_Onbd_Fmwk__Onboarding_Start_Date__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <inlineHelpText>This determines when the contact&apos;s onboarding journey needs to begin.When left blank, start date is taken to be the date when the onboarding plan is attached to the contact. It drives calculation of step duration.</inlineHelpText>
+    <inlineHelpText>This determines when the contact's onboarding journey needs to begin.When left blank, start date is taken to be the date when the onboarding plan is attached to the contact. It drives calculation of step duration.</inlineHelpText>
     <label>Onboarding Start Date</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

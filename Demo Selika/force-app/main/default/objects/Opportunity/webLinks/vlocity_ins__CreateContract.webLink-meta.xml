@@ -7,19 +7,19 @@
     <masterLabel>Create Contract</masterLabel>
     <openType>onClickJavaScript</openType>
     <protected>false</protected>
-    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
+    <url>{!REQUIRESCRIPT("/soap/ajax/30.0/connection.js")}
 
-{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
+{!REQUIRESCRIPT("/soap/ajax/30.0/apex.js")}
 
-var namespace_prefix = &apos;&apos;; 
+var namespace_prefix = ''; 
 
 
 
 var result = sforce.connection.describeGlobal();
 
-var TOKEN_OBJ = &quot;Party__c&quot;;
+var TOKEN_OBJ = "Party__c";
 
-var sobjects = result.getArray(&quot;sobjects&quot;);
+var sobjects = result.getArray("sobjects");
 
 
 
@@ -27,7 +27,7 @@ for(var i=0; i&lt;sobjects.length; i++) {
 
 var sobjName = sobjects[i].name;
 
-var str = sobjName.split(&quot;__&quot;);
+var str = sobjName.split("__");
 
 //if there are 3 values there is a namespace
 
@@ -35,7 +35,7 @@ if (str.length == 3){
 
 //Is it one of ours?
 
-var sobj = str[1].valueOf() +&apos;__c&apos;;
+var sobj = str[1].valueOf() +'__c';
 
 if(sobj == TOKEN_OBJ) {
 
@@ -47,14 +47,14 @@ namespace_prefix = str[0].valueOf();
 
 }
 
-if(namespace_prefix != &quot;&quot;){
+if(namespace_prefix != ""){
 
-namespace_prefix+= &apos;.&apos;;
+namespace_prefix+= '.';
 
 } 
 
 
 
-var result = sforce.apex.execute(namespace_prefix+&quot;ContractServiceResource&quot;,&quot;createContractWithTemplate&quot;, {contextId: &apos;{!Opportunity.Id}&apos;});
-window.location.href = &apos;/&apos; + result + &apos;/e?retURL=%2F&apos; + result;</url>
+var result = sforce.apex.execute(namespace_prefix+"ContractServiceResource","createContractWithTemplate", {contextId: '{!Opportunity.Id}'});
+window.location.href = '/' + result + '/e?retURL=%2F' + result;</url>
 </WebLink>

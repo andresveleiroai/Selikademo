@@ -10,7 +10,7 @@
     <filterScope>Mine</filterScope>
     <label>My Open Deals</label>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
-        <allPartnerUsers></allPartnerUsers>
+        <allInternalUsers />
+        <allPartnerUsers />
     </sharedTo>
 </ListView>

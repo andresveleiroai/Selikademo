@@ -3,7 +3,7 @@
     <fullName>SDO_SPM_Region_Auto_Calc__c</fullName>
     <description>SPM Sales Planning demo field 9-5-23 Aaron Bendickson</description>
     <externalId>false</externalId>
-    <formula>CASE( BillingCountry ,&quot;USA&quot;, &quot;USA&quot;,&quot;United States&quot;, &quot;USA&quot;,&quot;US&quot;, &quot;USA&quot;,&quot;Canada&quot;, &quot;CAN&quot;,&quot;CAN&quot;, &quot;CAN&quot;,&quot;CA&quot;, &quot;CA&quot;,&quot;&quot;)</formula>
+    <formula>CASE( BillingCountry ,"USA", "USA","United States", "USA","US", "USA","Canada", "CAN","CAN", "CAN","CA", "CA","")</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Region (Auto-Calc)</label>
     <required>false</required>

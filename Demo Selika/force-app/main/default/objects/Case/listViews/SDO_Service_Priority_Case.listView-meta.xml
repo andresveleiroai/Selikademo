@@ -5,6 +5,6 @@
     <label>Priority</label>
     <queue>SDO_Service_Priority</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

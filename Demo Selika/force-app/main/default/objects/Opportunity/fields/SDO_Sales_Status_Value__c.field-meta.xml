@@ -3,7 +3,7 @@
     <fullName>SDO_Sales_Status_Value__c</fullName>
     <description>What: Status good or bad. Used in Formula fields</description>
     <externalId>false</externalId>
-    <formula>IF( CloseDate_TODAY__c &gt;0, &quot;good&quot;, &quot;bad&quot;)</formula>
+    <formula>IF( CloseDate_TODAY__c &gt;0, "good", "bad")</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Status Value</label>
     <required>false</required>

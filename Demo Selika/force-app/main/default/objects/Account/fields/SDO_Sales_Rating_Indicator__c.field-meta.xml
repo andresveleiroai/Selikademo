@@ -3,11 +3,11 @@
     <fullName>SDO_Sales_Rating_Indicator__c</fullName>
     <description>What: used in Channel Plans reporting</description>
     <externalId>false</externalId>
-    <formula>IMAGE(&apos;/servlet/servlet.FileDownload?file=&apos;&amp; IF (SDO_Value__c &gt; 0, &apos;015KY000001D0CE&apos;, &apos;015KY000001D0CF&apos;),&apos;&apos;,22,22) &amp;&quot;&quot;&amp; 
-IMAGE(&apos;/servlet/servlet.FileDownload?file=&apos;&amp; IF (SDO_Value__c &gt; 1, &apos;015KY000001D0CE&apos;, &apos;015KY000001D0CF&apos;),&apos;&apos;,22,22) &amp;&quot;&quot;&amp; 
-IMAGE(&apos;/servlet/servlet.FileDownload?file=&apos;&amp; IF (SDO_Value__c &gt; 2, &apos;015KY000001D0CE&apos;, &apos;015KY000001D0CF&apos;),&apos;&apos;,22,22) &amp;&quot;&quot;&amp; 
-IMAGE(&apos;/servlet/servlet.FileDownload?file=&apos;&amp; IF (SDO_Value__c &gt; 3, &apos;015KY000001D0CE&apos;, &apos;015KY000001D0CF&apos;),&apos;&apos;,22,22) &amp;&quot;&quot;&amp; 
-IMAGE(&apos;/servlet/servlet.FileDownload?file=&apos;&amp; IF (SDO_Value__c &gt; 4, &apos;015KY000001D0CE&apos;, &apos;015KY000001D0CF&apos;),&apos;&apos;,22,22)</formula>
+    <formula>IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (SDO_Value__c &gt; 0, '015KY000001D0CE', '015KY000001D0CF'),'',22,22) &amp;""&amp; 
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (SDO_Value__c &gt; 1, '015KY000001D0CE', '015KY000001D0CF'),'',22,22) &amp;""&amp; 
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (SDO_Value__c &gt; 2, '015KY000001D0CE', '015KY000001D0CF'),'',22,22) &amp;""&amp; 
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (SDO_Value__c &gt; 3, '015KY000001D0CE', '015KY000001D0CF'),'',22,22) &amp;""&amp; 
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (SDO_Value__c &gt; 4, '015KY000001D0CE', '015KY000001D0CF'),'',22,22)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Value Indicator</label>
     <required>false</required>

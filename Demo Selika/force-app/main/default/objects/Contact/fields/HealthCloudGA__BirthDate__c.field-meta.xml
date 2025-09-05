@@ -4,19 +4,19 @@
     <deprecated>false</deprecated>
     <externalId>false</externalId>
     <formula>IF( NOT( ISBLANK( Birthdate ) ) , CASE(MONTH( Birthdate ),
-1, &quot;January&quot;,
-2, &quot;February&quot;,
-3, &quot;March&quot;,
-4, &quot;April&quot;,
-5, &quot;May&quot;,
-6, &quot;June&quot;,
-7, &quot;July&quot;,
-8, &quot;August&quot;,
-9, &quot;September&quot;,
-10, &quot;October&quot;,
-11, &quot;November&quot;,
-12, &quot;December&quot;,
-&quot;None&quot;)+ &apos; &apos;+TEXT(DAY(Birthdate))+&apos;,&apos;+&apos; &apos;+TEXT(Year(Birthdate)), &apos;&apos;)</formula>
+1, "January",
+2, "February",
+3, "March",
+4, "April",
+5, "May",
+6, "June",
+7, "July",
+8, "August",
+9, "September",
+10, "October",
+11, "November",
+12, "December",
+"None")+ ' '+TEXT(DAY(Birthdate))+','+' '+TEXT(Year(Birthdate)), '')</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Birth Date</label>
     <required>false</required>

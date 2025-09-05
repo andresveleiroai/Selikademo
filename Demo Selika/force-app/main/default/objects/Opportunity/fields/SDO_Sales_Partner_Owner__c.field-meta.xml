@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SDO_Sales_Partner_Owner__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>What: Used for the &quot;Partner Opportunities&quot; related list on Partner Account records.</description>
+    <description>What: Used for the "Partner Opportunities" related list on Partner Account records.</description>
     <externalId>false</externalId>
     <label>Partner Owner</label>
     <referenceTo>Account</referenceTo>

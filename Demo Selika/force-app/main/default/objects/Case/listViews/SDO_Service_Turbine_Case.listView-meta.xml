@@ -5,6 +5,6 @@
     <label>Turbine</label>
     <queue>SDO_Service_Turbine</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

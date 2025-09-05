@@ -22,7 +22,7 @@
     <label>Partner Opportunities</label>
     <language>en_US</language>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
         <group>Channel_Managers</group>
     </sharedTo>
 </ListView>

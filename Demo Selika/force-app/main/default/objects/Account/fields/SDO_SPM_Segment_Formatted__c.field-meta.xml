@@ -3,7 +3,7 @@
     <fullName>SDO_SPM_Segment_Formatted__c</fullName>
     <description>SPM Sales Planning demo field 9-5-23 Aaron Bendickson</description>
     <externalId>false</externalId>
-    <formula>SDO_SPM_Region_Auto_Calc__c + &quot;-&quot; + SDO_SPM_Segment_Auto_Calc__c</formula>
+    <formula>SDO_SPM_Region_Auto_Calc__c + "-" + SDO_SPM_Segment_Auto_Calc__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Combines Region and Segment to create a formatted Segment name</inlineHelpText>
     <label>Segment (Formatted)</label>

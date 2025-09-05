@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Specialties__c</fullName>
+    <label>Especialidades Necesarias</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gastroenterología</fullName>
+                <default>false</default>
+                <label>Gastroenterología</label>
+            </value>
+            <value>
+                <fullName>Coloproctología</fullName>
+                <default>false</default>
+                <label>Coloproctología</label>
+            </value>
+            <value>
+                <fullName>Endocrinología</fullName>
+                <default>false</default>
+                <label>Endocrinología</label>
+            </value>
+            <value>
+                <fullName>Nutrición</fullName>
+                <default>false</default>
+                <label>Nutrición</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

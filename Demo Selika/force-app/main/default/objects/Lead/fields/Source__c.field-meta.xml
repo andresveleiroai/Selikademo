@@ -5,17 +5,17 @@
     <formula>IMAGE(
   CASE(
     LeadSource,
-    &quot;Website&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/website.png&quot;,
-    &quot;Social Media&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/social.png&quot;,
-    &quot;Marketing Event&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/marketing.png&quot;,
-    &quot;Referral&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/referral.png&quot;,
-    &quot;Cold Call&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/coldcall.png&quot;,
-    &quot;Community&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/community.png&quot;,
-    &quot;Inbound Call&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/inboundcall.png&quot;,
-    &quot;Partner&quot;, &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/partner.png&quot;,
-    &quot;https://sdo-master.s3.us-west-1.amazonaws.com/icons/website.png&quot;
+    "Website", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/website.png",
+    "Social Media", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/social.png",
+    "Marketing Event", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/marketing.png",
+    "Referral", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/referral.png",
+    "Cold Call", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/coldcall.png",
+    "Community", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/community.png",
+    "Inbound Call", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/inboundcall.png",
+    "Partner", "https://sdo-master.s3.us-west-1.amazonaws.com/icons/partner.png",
+    "https://sdo-master.s3.us-west-1.amazonaws.com/icons/website.png"
   ),
-  &quot;&quot;, 22, 22
+  "", 22, 22
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Source</label>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Especialidad_Asociada__c</fullName>
+    <label>Especialidad Asociada</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gastroenterología</fullName>
+                <default>false</default>
+                <label>Gastroenterología</label>
+            </value>
+            <value>
+                <fullName>Coloproctología</fullName>
+                <default>false</default>
+                <label>Coloproctología</label>
+            </value>
+            <value>
+                <fullName>Fisiología Gastrointestinal</fullName>
+                <default>false</default>
+                <label>Fisiología Gastrointestinal</label>
+            </value>
+            <value>
+                <fullName>Cirugía General</fullName>
+                <default>false</default>
+                <label>Cirugía General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

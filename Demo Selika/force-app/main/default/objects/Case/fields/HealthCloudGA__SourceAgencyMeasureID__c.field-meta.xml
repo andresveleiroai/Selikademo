@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>HealthCloudGA__SourceAgencyMeasureID__c</fullName>
     <deprecated>false</deprecated>
-    <description>ID of the source agency&apos;s measure for this care gap.</description>
+    <description>ID of the source agency's measure for this care gap.</description>
     <externalId>false</externalId>
-    <inlineHelpText>ID of the source agency&apos;s measure for this care gap.</inlineHelpText>
+    <inlineHelpText>ID of the source agency's measure for this care gap.</inlineHelpText>
     <label>Source Agency Measure ID</label>
     <length>255</length>
     <required>false</required>

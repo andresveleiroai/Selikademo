@@ -16,7 +16,7 @@
     </filters>
     <label>Open Cases</label>
     <sharedTo>
-        <allCustomerPortalUsers></allCustomerPortalUsers>
-        <allPartnerUsers></allPartnerUsers>
+        <allCustomerPortalUsers />
+        <allPartnerUsers />
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>Social_Queue</label>
     <queue>SDO_Service_Social_Queue</queue>
     <sharedTo>
-        <allInternalUsers></allInternalUsers>
+        <allInternalUsers />
     </sharedTo>
 </ListView>

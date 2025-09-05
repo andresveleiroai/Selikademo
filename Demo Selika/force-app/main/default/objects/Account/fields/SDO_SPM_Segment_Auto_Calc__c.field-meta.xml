@@ -3,9 +3,9 @@
     <fullName>SDO_SPM_Segment_Auto_Calc__c</fullName>
     <description>SDO SPM Sales Planning demo field created by Aaron Bendickson 9-11-2023</description>
     <externalId>false</externalId>
-    <formula>IF( AnnualRevenue &lt;= 3000000, &quot;SMB&quot;,
-IF( AND( AnnualRevenue &gt; 3000000, AnnualRevenue &lt;= 5000000), &quot;Commercial&quot;,
-IF( AnnualRevenue &gt; 5000000, &quot;Enterprise&quot;, &quot;SMB&quot;)))</formula>
+    <formula>IF( AnnualRevenue &lt;= 3000000, "SMB",
+IF( AND( AnnualRevenue &gt; 3000000, AnnualRevenue &lt;= 5000000), "Commercial",
+IF( AnnualRevenue &gt; 5000000, "Enterprise", "SMB")))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Segment (Auto-Calc)</label>
     <required>false</required>
